@@ -89,11 +89,13 @@ section.imagem p {
 section#img01 {
     background-image: url("../imagens/roses.jpg");
     background-position: center center;
+    background-size: cover;
 }
 
 section#img02 {
     background-image: url("../imagens/letter.jpg");
     background-position: center center;
+    background-size: cover;
 }
 
 footer {
