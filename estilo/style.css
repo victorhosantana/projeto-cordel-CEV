@@ -20,6 +20,7 @@ html, body {
     background-color: rgb(255,255,255);
     font-family: var(--fonte1);
     margin: auto;
+    width: auto;
 }
 
 header {
@@ -27,6 +28,7 @@ header {
     color: #ffffff;
     text-align: center;
     margin: auto;
+    width: auto;
 }
 
 header > h1 {
@@ -75,7 +77,7 @@ section.imagem {
     color: rgb(255, 255, 255);
     box-shadow: inset 0px 0px 50px 10px rgba(0, 0, 0, 0.5);
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 section.imagem p {
@@ -102,6 +104,7 @@ footer {
     text-align: center;
     padding: 0.5em;
     margin: auto;
+    width: auto;
 }
 
 footer p {
