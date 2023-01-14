@@ -1,2 +1,106 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Patrick Hand", cursive, sans-serif;
+    --fonte3: "Sriracha", cursive, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(255,255,255);
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: rgb(56, 22, 13);
+    color: #ffffff;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 1vh;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 7vw;
+}
+
+header p {
+    padding-top: 0.1vh;
+    padding-bottom: 2vh;
+    font-size: 1.5vw;
+}
+
+header a, footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    line-height: 2em;
+    padding-left: 20px;
+    font-family: var(--fonte3);
+    font-size: 2.5vw;
+}
+
+section p.septilha {
+    padding-bottom: 1em;
+}
+
+section.normal {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+section.imagem {
+    background-color: rgb(222, 184, 135);
+    color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 50px 10px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem p {
+    background-color: rgba(110, 75, 55, 0.8);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 0px #000;
+}
+
+section#img01 {
+    background-image: url("../imagens/roses.jpg");
+    background-position: center center;
+}
+
+section#img02 {
+    background-image: url("../imagens/letter.jpg");
+    background-position: center center;
+}
+
+footer {
+    background-color: rgb(74, 36, 25);
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+footer p {
+    font-size: 1.5vw;
+}
